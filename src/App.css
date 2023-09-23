@@ -1,0 +1,16 @@
+.my-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.my-icon {
+    margin-right:0.5em;
+    width: 5%;
+    height: 5%;
+}
+
+.carousel-img {
+    display: block;
+    width: 100%;
+    height: 76vh;
+}
