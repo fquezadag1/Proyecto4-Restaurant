@@ -6,23 +6,23 @@ export const Home = () => {
       <Carousel.Item>
         <img className= "carousel-img" src="src/images/restaurant1.jpg" alt="" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Bienvenido!</h3>
+          <p>En nuestro restaurant encontrar los mejores platos del mercado</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className= "carousel-img" src="src/images/restaurant2.jpg" alt="" />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Renovacion Constante</h3>
+          <p>Siempre buscamos renovar nuestra carta con las ultimas tendencias gastronomicas.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className= "carousel-img" src="src/images/restaurant3.jpg" alt="" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Gran equipo</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Contamos con personal altamente capacitado para que tu experiencia aqui sea inolvidable.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
