@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
-
+import logo from "/src/images/logo.png"
 
 export const NavBar = () => {
   return (
@@ -10,7 +10,7 @@ export const NavBar = () => {
       <Container>
         <Navbar.Brand as={Link} to="/proyecto-4/">
           <img
-            src="./src/images/logo.png"
+            src={logo}
             className="my-logo d-inline-block align-top"
           />
         </Navbar.Brand>
