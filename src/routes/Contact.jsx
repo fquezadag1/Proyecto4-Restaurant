@@ -9,8 +9,6 @@ import { db } from '../firebase.js'
 import { useEffect, useState } from 'react';
 import Swal from 'sweetalert2'
 
-
-
 const validarInputs = () => {
 
     const input1 = document.getElementById('input-nombre').value;
@@ -116,7 +114,7 @@ export const Contact = () => {
                 document.getElementById('input-correo').value = "";
                 document.getElementById('input-hora').value = null;
                 document.getElementById('input-dia').value = null;
-                
+
                 document.getElementById('btn-crear').disabled = false;
                 document.getElementById('btn-editar').disabled = true;
             } else if (result.isDenied) {
@@ -212,7 +210,7 @@ export const Contact = () => {
                                 </Form.Group>
                                 <Form.Group controlId="input-dia" value={dia} onChange={(event) => setDia(event.target.value)} className="mb-3">
                                     <Form.Label>Dia</Form.Label>
-                                    <Form.Control type="date" /> 
+                                    <Form.Control type="date" />
                                 </Form.Group>
                                 <Form.Group controlId="input-hora" value={hora} onChange={(event) => setHora(event.target.value)} className="mb-3">
                                     <Form.Label>Hora</Form.Label>
