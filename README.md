@@ -28,6 +28,14 @@ Un componente que incluya el menú completo del restaurante
 Adaptado a móviles - Aplicado en este proyecto
 Un blog que incluya un artículo
 
+## Librerias Utilizadas
+
+Sweetalert 2 : Creacion de Alertas
+MDB: Creacion del Footer
+React Boostrap : Creacion de Componentes
+Firebase: Manejo de base de datos
+Fontawesome
+
 ## Autor
 
 Felipe Quezada
