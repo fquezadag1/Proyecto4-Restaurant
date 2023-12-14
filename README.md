@@ -1,13 +1,12 @@
-## Descripcion del proyecto
+# Descripcion del proyecto
 
 Elaboracion de una aplicación web para un restaurante utilizando React y Firebase
 
-## Indice
-- Objetivos
-- Requerimientos Minimos
-- Requerimientos Opcionales
-- Librerias utilizadas
-- Autor
+# Indice
+* [1. Objetivos](#Objetivos)
+* [2. Requerimientos Minimos](#Requerimientos-Minimos)
+* [3. Requerimientos Opcionales](#3Requerimientos-Opcionales)
+* [4. Librerias utilizadas](#Librerias-utilizadas)
 
 ## Objetivos
 
@@ -36,8 +35,4 @@ Elaboracion de una aplicación web para un restaurante utilizando React y Fireba
 - React Boostrap : Creacion de Componentes
 - Firebase: Manejo de base de datos
 - Fontawesome
-
-## Autor
-
-Felipe Quezada
 
